@@ -13,7 +13,7 @@ def index(request):
     #print(r.text)
     #return HttpResponse('<pre>' + r.text + '</pre>')
     
-    times = int(os.environ.get('review.YELLOW'))
+    times = int(os.environ.get('YELLOW'))
     return HttpResponse('My name is davin and im a voss lmaoooo\n ' * times)
 
     # return HttpResponse('Hello from Python!')
