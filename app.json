@@ -9,13 +9,14 @@
     "SECRET_KEY": {
       "description": "The secret key for the Django application.",
       "generator": "secret"
+    },
+    "YELLOW": {
+      "value": "5"
     }
   },
   "environments": {
     "review": {
-      "env":{
-        "YELLOW": { "value": "5"}
-        }
+
       }  
     }
   }
