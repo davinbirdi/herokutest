@@ -18,6 +18,9 @@
         "test": "python manage.py test",
         "YELLOW": "5"
       }
+    },
+    "review": {
+      "YELLOW": "5"
     }
   }
 }
