@@ -12,13 +12,6 @@
     }
   },
   "environments": {
-    "test": {
-      "scripts": {
-        "test-setup": "python manage.py collectstatic --noinput",
-        "test": "python manage.py test",
-        "YELLOW": "5"
-      }
-    },
     "review": {
       "env":{
         "YELLOW": "5"
