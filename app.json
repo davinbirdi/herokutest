@@ -15,11 +15,9 @@
     "test": {
       "scripts": {
         "test-setup": "python manage.py collectstatic --noinput",
-        "test": "python manage.py test"
-      },
-    "review": {
-      "YELLOW": "5"
-    }
+        "test": "python manage.py test",
+        "YELLOW": "5"
+      }
     }
   }
 }
