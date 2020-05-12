@@ -11,14 +11,9 @@
       "generator": "secret"
     },
     "YELLOW":"5"
-    }
   },
   "environments": {
     "review": {
-      "YELLOW": {
-        "value": "5"
-      },
-      "YELLOW":"5"  
     }
   }
 }
