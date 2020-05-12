@@ -16,7 +16,8 @@
   },
   "environments": {
     "review": {
-
+      "YELLOW": {
+        "value": "5"
       }  
     }
   }
