@@ -14,6 +14,7 @@ def index(request):
     #return HttpResponse('<pre>' + r.text + '</pre>')
     
     times = int(os.environ.get('YELLOW'))
+
     return HttpResponse('THIS IS A DEV BRANCH!!! WILL I BE PROMOTED!!??\n ' * times)
 
     # return HttpResponse('Hello from Python!')
