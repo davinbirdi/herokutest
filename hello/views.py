@@ -15,7 +15,7 @@ def index(request):
     
     times = int(os.environ.get('YELLOW'))
 
-    return HttpResponse("Let's propagate this change: dev -> stage -> prod\n" * times)
+    return HttpResponse("Test Change \n\n" * times)
 
     # return HttpResponse('Hello from Python!')
     #return render(request, "index.html")
