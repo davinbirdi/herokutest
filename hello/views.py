@@ -15,7 +15,7 @@ def index(request):
     
     times = int(os.environ.get('YELLOW'))
 
-    return HttpResponse("Test Change \n\n" * times)
+    return HttpResponse("Test Change Demonstation\n\n" * times)
 
     # return HttpResponse('Hello from Python!')
     #return render(request, "index.html")
